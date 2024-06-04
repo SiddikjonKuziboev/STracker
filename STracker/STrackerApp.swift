@@ -11,7 +11,9 @@ import SwiftUI
 struct STrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                WelcomeView()
+            }
         }
     }
 }
